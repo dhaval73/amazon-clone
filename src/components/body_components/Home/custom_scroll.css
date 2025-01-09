@@ -1,0 +1,25 @@
+
+  .custom-scrollbar::-webkit-scrollbar {
+    height: 7px;
+    scrollbar-color: #9ca3af #6f81a46a;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f3f4f66a; /* Scrollbar track background (gray-100 in Tailwind) */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #f3f4f66a; /* Scrollbar thumb color (gray-400 in Tailwind) */
+    border-radius: 4px; /* Rounded corners for the thumb */
+    border: 0px solid #ffffff00; /* Adds padding around the thumb */
+    color:#f3f4f66a ;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover { 
+    background-color: #aeb5c3; /* Thumb color on hover (gray-600 in Tailwind) */
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover { 
+    background-color: #6b7280; /* Thumb color on hover (gray-600 in Tailwind) */
+  }
+  
+

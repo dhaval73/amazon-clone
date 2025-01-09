@@ -8,14 +8,14 @@ import Footer_page from './components/footer_components/Footer_page'
 
 function App() {
   return (<>
-  <Header_page />
+ <Header_page /> 
     <Routes>
       <Route path="/" element={<Body_layout />}>
         <Route index element={<Home_page />} />
         {/* <Route path="settings" element={<Settings />} /> */}
       </Route>
     </Routes>
-    <Footer_page/>
+    {/* <Footer_page/> */}
   </>
   )
 }
